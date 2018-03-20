@@ -1,4 +1,4 @@
-/* Mariana da Silva Leite   201511950099 */
+/* Desenvolvido por Mariana Leite */
 #include "user.h"
 
 #ifndef _BOOTLOADER  
@@ -22,11 +22,11 @@
 #endif
 
 #ifdef _BOOTLOADER  
-    //Gravação no módulo físico
+    //GravaÃ§Ã£o no mÃ³dulo fÃ­sico
     #define PS1  1
     #define BR   415
 #else
-    //Simulação no Proteus
+    //SimulaÃ§Ã£o no Proteus
     #define PS1  0
     #define BR   51
 #endif
